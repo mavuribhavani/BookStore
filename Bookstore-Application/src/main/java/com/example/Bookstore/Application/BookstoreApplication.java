@@ -13,7 +13,7 @@ public class BookstoreApplication {
 	public Mono<String> readingList(){
 	    return Mono.just("Spring in Action (Manning), Cloud Native Java (O'Reilly), Learning Spring Boot (Packt)");
 	  }
-     //This is bookstore Application
+     //This is Bookstore Application
 	public static void main(String[] args) {
 		SpringApplication.run(BookstoreApplication.class, args);
 	}
